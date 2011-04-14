@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86260B2913574CB70040C9FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86260B2813574CB70040C9FA /* UIKit.framework */; };
+		86260B2B13574CB70040C9FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86260B2A13574CB70040C9FA /* Foundation.framework */; };
+		86260B2D13574CB70040C9FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86260B2C13574CB70040C9FA /* CoreGraphics.framework */; };
+		86260B3313574CB70040C9FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86260B3113574CB70040C9FA /* InfoPlist.strings */; };
+		86260B3613574CB70040C9FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B3513574CB70040C9FA /* main.m */; };
+		86260B3913574CB70040C9FA /* BKTransitionDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B3813574CB70040C9FA /* BKTransitionDemoAppDelegate.m */; };
+		86260B3C13574CB70040C9FA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86260B3A13574CB70040C9FA /* MainWindow.xib */; };
+		86260B3F13574CB70040C9FA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B3E13574CB70040C9FA /* RootViewController.m */; };
+		86260B4213574CB70040C9FA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86260B4013574CB70040C9FA /* RootViewController.xib */; };
+		86260B4F13574CE00040C9FA /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B4913574CE00040C9FA /* UIView+Transition.m */; };
+		86260B5013574CE00040C9FA /* UINavigationController+CustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B4B13574CE00040C9FA /* UINavigationController+CustomAnimation.m */; };
+		86260B5113574CE00040C9FA /* NSObject+Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B4D13574CE00040C9FA /* NSObject+Proxy.m */; };
+		86260B5513574D3D0040C9FA /* BKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B5313574D3C0040C9FA /* BKViewController.m */; };
+		86260B5B13574F2E0040C9FA /* Face3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86260B5813574F2E0040C9FA /* Face3.png */; };
+		86260B5C13574F2E0040C9FA /* Face2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86260B5913574F2E0040C9FA /* Face2.png */; };
+		86260B5D13574F2E0040C9FA /* Face1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86260B5A13574F2E0040C9FA /* Face1.png */; };
+		86260B61135751550040C9FA /* CartoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86260B5F135751540040C9FA /* CartoonViewController.m */; };
+		86260B62135751550040C9FA /* CartoonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86260B60135751550040C9FA /* CartoonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86260B2413574CB70040C9FA /* BKTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86260B2813574CB70040C9FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86260B2A13574CB70040C9FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86260B2C13574CB70040C9FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86260B3013574CB70040C9FA /* BKTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		86260B3213574CB70040C9FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86260B3413574CB70040C9FA /* BKTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		86260B3513574CB70040C9FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86260B3713574CB70040C9FA /* BKTransitionDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKTransitionDemoAppDelegate.h; sourceTree = "<group>"; };
+		86260B3813574CB70040C9FA /* BKTransitionDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKTransitionDemoAppDelegate.m; sourceTree = "<group>"; };
+		86260B3B13574CB70040C9FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		86260B3D13574CB70040C9FA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		86260B3E13574CB70040C9FA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		86260B4113574CB70040C9FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		86260B4913574CE00040C9FA /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Transition.m"; path = "../Classes/UIView+Transition.m"; sourceTree = "<group>"; };
+		86260B4A13574CE00040C9FA /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Transition.h"; path = "../Classes/UIView+Transition.h"; sourceTree = "<group>"; };
+		86260B4B13574CE00040C9FA /* UINavigationController+CustomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+CustomAnimation.m"; path = "../Classes/UINavigationController+CustomAnimation.m"; sourceTree = "<group>"; };
+		86260B4C13574CE00040C9FA /* UINavigationController+CustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+CustomAnimation.h"; path = "../Classes/UINavigationController+CustomAnimation.h"; sourceTree = "<group>"; };
+		86260B4D13574CE00040C9FA /* NSObject+Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Proxy.m"; path = "../Classes/NSObject+Proxy.m"; sourceTree = "<group>"; };
+		86260B4E13574CE00040C9FA /* NSObject+Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Proxy.h"; path = "../Classes/NSObject+Proxy.h"; sourceTree = "<group>"; };
+		86260B5213574D3C0040C9FA /* BKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKViewController.h; sourceTree = "<group>"; };
+		86260B5313574D3C0040C9FA /* BKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKViewController.m; sourceTree = "<group>"; };
+		86260B5813574F2E0040C9FA /* Face3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Face3.png; path = Images/Face3.png; sourceTree = "<group>"; };
+		86260B5913574F2E0040C9FA /* Face2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Face2.png; path = Images/Face2.png; sourceTree = "<group>"; };
+		86260B5A13574F2E0040C9FA /* Face1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Face1.png; path = Images/Face1.png; sourceTree = "<group>"; };
+		86260B5E135751540040C9FA /* CartoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonViewController.h; sourceTree = "<group>"; };
+		86260B5F135751540040C9FA /* CartoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonViewController.m; sourceTree = "<group>"; };
+		86260B60135751550040C9FA /* CartoonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartoonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86260B2113574CB70040C9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86260B2913574CB70040C9FA /* UIKit.framework in Frameworks */,
+				86260B2B13574CB70040C9FA /* Foundation.framework in Frameworks */,
+				86260B2D13574CB70040C9FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86260B1913574CB70040C9FA = {
+			isa = PBXGroup;
+			children = (
+				86260B5713574F1D0040C9FA /* Images */,
+				86260B4813574CD30040C9FA /* BKTransition */,
+				86260B2E13574CB70040C9FA /* BKTransitionDemo */,
+				86260B2713574CB70040C9FA /* Frameworks */,
+				86260B2513574CB70040C9FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86260B2513574CB70040C9FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86260B2413574CB70040C9FA /* BKTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86260B2713574CB70040C9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86260B2813574CB70040C9FA /* UIKit.framework */,
+				86260B2A13574CB70040C9FA /* Foundation.framework */,
+				86260B2C13574CB70040C9FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86260B2E13574CB70040C9FA /* BKTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				86260B3713574CB70040C9FA /* BKTransitionDemoAppDelegate.h */,
+				86260B3813574CB70040C9FA /* BKTransitionDemoAppDelegate.m */,
+				86260B3A13574CB70040C9FA /* MainWindow.xib */,
+				86260B3D13574CB70040C9FA /* RootViewController.h */,
+				86260B3E13574CB70040C9FA /* RootViewController.m */,
+				86260B4013574CB70040C9FA /* RootViewController.xib */,
+				86260B2F13574CB70040C9FA /* Supporting Files */,
+				86260B5213574D3C0040C9FA /* BKViewController.h */,
+				86260B5313574D3C0040C9FA /* BKViewController.m */,
+				86260B5E135751540040C9FA /* CartoonViewController.h */,
+				86260B5F135751540040C9FA /* CartoonViewController.m */,
+				86260B60135751550040C9FA /* CartoonViewController.xib */,
+			);
+			path = BKTransitionDemo;
+			sourceTree = "<group>";
+		};
+		86260B2F13574CB70040C9FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86260B3013574CB70040C9FA /* BKTransitionDemo-Info.plist */,
+				86260B3113574CB70040C9FA /* InfoPlist.strings */,
+				86260B3413574CB70040C9FA /* BKTransitionDemo-Prefix.pch */,
+				86260B3513574CB70040C9FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86260B4813574CD30040C9FA /* BKTransition */ = {
+			isa = PBXGroup;
+			children = (
+				86260B4913574CE00040C9FA /* UIView+Transition.m */,
+				86260B4A13574CE00040C9FA /* UIView+Transition.h */,
+				86260B4B13574CE00040C9FA /* UINavigationController+CustomAnimation.m */,
+				86260B4C13574CE00040C9FA /* UINavigationController+CustomAnimation.h */,
+				86260B4D13574CE00040C9FA /* NSObject+Proxy.m */,
+				86260B4E13574CE00040C9FA /* NSObject+Proxy.h */,
+			);
+			name = BKTransition;
+			sourceTree = "<group>";
+		};
+		86260B5713574F1D0040C9FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				86260B5813574F2E0040C9FA /* Face3.png */,
+				86260B5913574F2E0040C9FA /* Face2.png */,
+				86260B5A13574F2E0040C9FA /* Face1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86260B2313574CB70040C9FA /* BKTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86260B4513574CB70040C9FA /* Build configuration list for PBXNativeTarget "BKTransitionDemo" */;
+			buildPhases = (
+				86260B2013574CB70040C9FA /* Sources */,
+				86260B2113574CB70040C9FA /* Frameworks */,
+				86260B2213574CB70040C9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKTransitionDemo;
+			productName = BKTransitionDemo;
+			productReference = 86260B2413574CB70040C9FA /* BKTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86260B1B13574CB70040C9FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "King Software Design";
+			};
+			buildConfigurationList = 86260B1E13574CB70040C9FA /* Build configuration list for PBXProject "BKTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86260B1913574CB70040C9FA;
+			productRefGroup = 86260B2513574CB70040C9FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86260B2313574CB70040C9FA /* BKTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86260B2213574CB70040C9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86260B3313574CB70040C9FA /* InfoPlist.strings in Resources */,
+				86260B3C13574CB70040C9FA /* MainWindow.xib in Resources */,
+				86260B4213574CB70040C9FA /* RootViewController.xib in Resources */,
+				86260B5B13574F2E0040C9FA /* Face3.png in Resources */,
+				86260B5C13574F2E0040C9FA /* Face2.png in Resources */,
+				86260B5D13574F2E0040C9FA /* Face1.png in Resources */,
+				86260B62135751550040C9FA /* CartoonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86260B2013574CB70040C9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86260B3613574CB70040C9FA /* main.m in Sources */,
+				86260B3913574CB70040C9FA /* BKTransitionDemoAppDelegate.m in Sources */,
+				86260B3F13574CB70040C9FA /* RootViewController.m in Sources */,
+				86260B4F13574CE00040C9FA /* UIView+Transition.m in Sources */,
+				86260B5013574CE00040C9FA /* UINavigationController+CustomAnimation.m in Sources */,
+				86260B5113574CE00040C9FA /* NSObject+Proxy.m in Sources */,
+				86260B5513574D3D0040C9FA /* BKViewController.m in Sources */,
+				86260B61135751550040C9FA /* CartoonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86260B3113574CB70040C9FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86260B3213574CB70040C9FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86260B3A13574CB70040C9FA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86260B3B13574CB70040C9FA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		86260B4013574CB70040C9FA /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86260B4113574CB70040C9FA /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86260B4313574CB70040C9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86260B4413574CB70040C9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		86260B4613574CB70040C9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKTransitionDemo/BKTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "BKTransitionDemo/BKTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86260B4713574CB70040C9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKTransitionDemo/BKTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "BKTransitionDemo/BKTransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86260B1E13574CB70040C9FA /* Build configuration list for PBXProject "BKTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86260B4313574CB70040C9FA /* Debug */,
+				86260B4413574CB70040C9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86260B4513574CB70040C9FA /* Build configuration list for PBXNativeTarget "BKTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86260B4613574CB70040C9FA /* Debug */,
+				86260B4713574CB70040C9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86260B1B13574CB70040C9FA /* Project object */;
+}

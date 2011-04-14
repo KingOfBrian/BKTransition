@@ -51,7 +51,7 @@ BK_EXTERN CGPoint BKSlideOffscreenCenterPoint(CGRect enclosingFrame, CGRect fram
         if (BKSlideIsDirection(BKSlideDirectionRight, direction)) {
             offscreenCenter.x = enclosingFrame.size.width + shift;
         } else if (BKSlideIsDirection(BKSlideDirectionLeft, direction)) {
-            offscreenCenter.y = enclosingFrame.origin.x - shift;
+            offscreenCenter.x = enclosingFrame.origin.x - shift;
         }
     }
     return offscreenCenter;

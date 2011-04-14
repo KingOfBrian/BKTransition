@@ -134,10 +134,17 @@ static NSString *UINavigationControllerLazyLoadingControllerMetaData = @"UINavig
 }
 
 - (void) prepareView:(UIView*)newViewControllerView {
-    // There's an odd low memory crash here if [newViewController.view superview] is nil, so add it.
-    // This causes double viewDidAppear messages as the container-subview is a delegate that triggers these things
-	[[self.view superview] addSubview:newViewControllerView];
-    [[self.view superview] sendSubviewToBack:newViewControllerView];
+    // There's an odd low memory crash here if [newViewController.view superview] is nil, so add it to a stranded
+    // UIView.
+    UIView *superContainer = [[UIView alloc] initWithFrame:CGRectZero];
+    [superContainer addSubview:newViewControllerView];
+}
+- (void) cleanupView:(UIView*)newViewControllerView {
+    UIView *superContainer = [newViewControllerView superview];
+
+    if ([superContainer superview] == nil) {
+        [superContainer autorelease];
+    }
 }
 - (void) popViewControllerCustomAnimation {
 	NSParameterAssert([self.viewControllers count] > 1);
@@ -176,6 +183,7 @@ static NSString *UINavigationControllerLazyLoadingControllerMetaData = @"UINavig
 
 	if (self.newViewControllers) {
         UIViewController *fromVC = [self.viewControllers lastObject];
+        [self cleanupView:self.newViewController.view];
 
         // Complete the exit stage and perform the enter stage
 		self.viewControllers = self.newViewControllers;
